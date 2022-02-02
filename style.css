@@ -1,0 +1,73 @@
+body {
+    background-color: #c5c5c5;
+}
+
+#title {
+    background-color: #808080;
+    padding-left: 1em;
+    padding-top: 5em;
+    padding-bottom: 0em;
+    margin-bottom: 2em;
+}
+
+#title img {
+    margin-top: -8em;
+    margin-bottom: -5em;
+    margin-right: 1em;
+    width: 16em;
+    float: left;
+}
+
+#title h1 {
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    color: black;
+
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.buttons li {
+    float: left;
+
+    margin-right: 5px;
+    margin-top: -1.4em;
+    margin-left: -2em;
+    margin-right: 2.2em;
+
+    line-height: 50px;
+    width: 120px;
+
+    background-color: #808080;
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buttons li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+  
+.buttons li a:hover {
+    text-decoration: none;
+    color: #dddddd;
+    background-color: #8f8f8f;
+}
+
+.signUp {
+    float: right;
+    margin-top: 0em;
+    margin-right: -2.7em;
+}
+
+main {
+    clear: both;
+}
+
+:target {
+    background: #999999;
+}

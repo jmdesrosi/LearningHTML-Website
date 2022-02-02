@@ -19,23 +19,41 @@
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 
-    <header>
-        <h1 id="title">Dungeons & Dragons - Dungeon Master Helper</h1>
-        <ul class="MainMenu">
-            <li class="MainMenu" id="button"><a href="">Home</a></li> <!--Insert Hyperlink to Main Page here!-->
-            <li class="MainMenu" id="button"><a href="">About</a></li>
-        </ul>
+    <body>
+        <header>
+            <div id="title">
+                <img src="DND_Helper_Logo.png" alt="DND Helper Logo">
+                <h1>Dungeons & Dragons</h1>
+                <h1>Dungeon Master Helper</h1>
+            </div>
+            
+            <nav id="buttonBar">
+                <ul class="MainMenu buttons">
+                    <li><a href="#home">HOME</a></li> <!--Insert Hyperlink to Main Page here!-->
+                    <li><a href="#about">ABOUT</a></li>
+                </ul>
+                <ul class="signUp buttons">
+                    <li><a href="#signIn">SIGN IN</a></li>
+                    <li><a href="#signUp">SIGN UP</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <img src="DND_Helper_Logo.png" alt="DND Helper Logo">
-
-        <a class="SignIn" href="">Sign In</a>
-        <a class="SignUp" href="">Sign Up</a>
-    </header>
-
-    <main>
-        
-    </main>
+        <main>
+            <section id="home">
+                <p>
+                    Welcome to DND - DM Helper!
+                </p>
+            </section>
+            
+            <section id="about">
+                <p>
+                    This is a Webapp meant to help D&D players or dungeon masters to create Oneshots or campaigns.
+                </p>
+            </section>
+        </main>
+    </body>
 </html>
